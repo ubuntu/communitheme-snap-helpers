@@ -34,12 +34,11 @@ parts:
     plugin: meson
     meson-parameters: ["--prefix=/"]
   cursor:
-    source: https://github.com/ubuntu/cursor-communitheme.git
-    plugin: dump
-    organize:
-      Communitheme_13: share/icons/communitheme
+    source: https://github.com/ubuntu/communitheme-icon-theme.git
+    plugin: meson
     stage:
       - share/icons/
+    meson-parameters: ["--prefix=/"]
   sound:
     source: https://github.com/ubuntu/communitheme-sounds.git
     plugin: meson
