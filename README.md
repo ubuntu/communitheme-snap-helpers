@@ -1,3 +1,5 @@
+# This repository has been merged into ubuntu/yaru.
+
 # Communitheme Snap Helpers
 
 Various build and run helper for communitheme snap.
